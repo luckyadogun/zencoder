@@ -11,9 +11,9 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=PT+Mono&family=Quicksand:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter:wght@600&family=PT+Mono&family=Quicksand:wght@600;700&display=swap');
 
-* {
-  font-family: 'Quicksand', sans-serif;
+*, index {
+  font-family: 'Inter', sans-serif;
 }
 </style>
