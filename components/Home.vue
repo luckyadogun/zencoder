@@ -371,6 +371,10 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=PT+Mono&family=Quicksand:wght@600;700&display=swap');
 
+#mobile {
+  font-family: 'Quicksand', sans-serif;
+}
+
 .image-cover{
   position: absolute;
   background-image: url('https://res.cloudinary.com/zencoder/image/upload/v1604416121/zencoder__dark_i38quk.png');
