@@ -1,6 +1,7 @@
 <template>
   <div id="home">
-    <div id="mobile" class="lg:hidden pt-10">
+    
+    <div id="mobile" class="lg:hidden pt-10" style="font-family: 'Quicksand', sans-serif;">
       <div class="flex flex-col items-center justify-center">
         <NuxtLink to="/">
           <Logo />
@@ -371,9 +372,6 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=PT+Mono&family=Quicksand:wght@600;700&display=swap');
 
-#mobile {
-  font-family: 'Quicksand', sans-serif;
-}
 
 .image-cover{
   position: absolute;
