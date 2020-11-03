@@ -15,5 +15,6 @@ export default {
 
 *, #index {
   font-family: 'PT Mono', monospace;
+  font-family: 'Quicksand', sans-serif;
 }
 </style>
