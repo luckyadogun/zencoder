@@ -13,7 +13,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=PT+Mono&family=Quicksand:wght@600;700&display=swap');
 
-*, #index {
+* {
   font-family: 'Quicksand', sans-serif;
 }
 </style>
