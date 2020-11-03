@@ -1,13 +1,13 @@
 <template>
   <div id="home">
-    
-    <div id="mobile" class="lg:hidden pt-10" style="font-family: 'Quicksand', sans-serif;">
+
+    <div id="mobile" class="lg:hidden pt-10">
       <div class="flex flex-col items-center justify-center">
         <NuxtLink to="/">
           <Logo />
         </NuxtLink>
       </div>
-      <div class="flex justify-center my-10 mx-0 text-xs md:text-lg">
+      <div class="flex justify-center my-10 mx-0 text-xs md:text-lg text-center">
         <NuxtLink to="/"
           ><p class="mr-2 md:mr-12 font-extrabold">What to Expect?</p></NuxtLink
         >
@@ -15,7 +15,7 @@
         <NuxtLink to="/"><p class="mr-2 md:mr-12">Books</p></NuxtLink>
         <NuxtLink to="/"><p class="mr-2 md:mr-12">OSS</p></NuxtLink>
         <NuxtLink to="/"
-          ><p class="mr-2 md:mr-12 hidden md:block">
+          ><p class="mr-2 md:mr-12">
             LifeOutsideTech
           </p></NuxtLink
         >
@@ -176,11 +176,11 @@
 
         <div class="bg-theme-secondary w-1/2 p-8">
           <div class="flex justify-center text-white md:text-sm mb-40 mx-20">
-            <NuxtLink to="/"><p class="mr-4 xl:mr-10 font-bold">What to Expect?</p></NuxtLink>
-            <NuxtLink to="/"><p class="mr-4 xl:mr-10">Download CV</p></NuxtLink>
-            <NuxtLink to="/"><p class="mr-4 xl:mr-10">Books</p></NuxtLink>
-            <NuxtLink to="/"><p class="mr-4 xl:mr-10">OSS</p></NuxtLink>
-            <NuxtLink to="/"><p class="mr-4 xl:mr-10">LifeOutsideTech</p></NuxtLink>
+            <NuxtLink to="/"><p class="mr-4 xl:mr-14 font-bold">What to Expect?</p></NuxtLink>
+            <NuxtLink to="/"><p class="mr-4 xl:mr-14">Download CV</p></NuxtLink>
+            <NuxtLink to="/"><p class="mr-4 xl:mr-14">Books</p></NuxtLink>
+            <NuxtLink to="/"><p class="mr-4 xl:mr-14">OSS</p></NuxtLink>
+            <NuxtLink to="/"><p class="mr-4 xl:mr-14">LifeOutsideTech</p></NuxtLink>
           </div>
 
           <div class="mx-20">
@@ -229,7 +229,7 @@
 
               <p class="hidden xl:flex flex-col text-right mt-20 xl:text-4xl" style="font-family: 'Homemade Apple', cursive;">
                 LuckyAdogun
-                <span class="text-lg tracking-widest">[ ZenCoder ]</span>
+                <span class="text-lg tracking-widest" style="font-family: 'Quicksand', sans-serif;">[ ZenCoder ]</span>
               </p>             
           </div>
         </div>
@@ -370,19 +370,17 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=PT+Mono&family=Quicksand:wght@600;700&display=swap');
-
 
 .image-cover{
   position: absolute;
   background-image: url('https://res.cloudinary.com/zencoder/image/upload/v1604416121/zencoder__dark_i38quk.png');
   background-repeat: no-repeat;
-  background-size: 790px;
+  background-size: 760px;
   background-position: center;
   top: 4%;
   left: 20%;
   right: 20%;
-  bottom: 0;
+  bottom: 0%;
 }
 
 @media only screen and (max-width: 1200px) {

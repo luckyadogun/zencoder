@@ -8,7 +8,8 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter:wght@600&family=PT+Mono&family=Quicksand:wght@600;700&display=swap' },
     ]
   },
 
