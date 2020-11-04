@@ -11,7 +11,7 @@
         <NuxtLink to="/"
           ><p class="mr-2 md:mr-12 font-extrabold">What to Expect?</p></NuxtLink
         >
-        <a class="mr-2 md:mr-12" target="_blank" href="https://drive.google.com/file/d/1_RXTgIz-wkzt9WSim3_KfIJigEr6HOzB/view?usp=sharing">Download CV</a>
+        <a class="mr-2 md:mr-12" target="_blank" href="https://drive.google.com/file/d/1ttzOTkdTb_fZD8KlDkhzck8EakPcUCGS/view?usp=sharing">Download CV</a>
         <NuxtLink to="/"><p class="mr-2 md:mr-12">Books</p></NuxtLink>
         <NuxtLink to="/"><p class="mr-2 md:mr-12">OSS</p></NuxtLink>
         <NuxtLink to="/"
@@ -21,7 +21,7 @@
         >
       </div>
       <div class="flex justify-center">
-        <img src="~/assets/images/zencoder__dark.png" alt="" />
+        <img src="https://res.cloudinary.com/zencoder/image/upload/v1604416121/zencoder__dark_i38quk.png" alt="zencoder" />
       </div>
       <!-- backendStacks -->
       <div
@@ -177,7 +177,7 @@
         <div class="bg-theme-secondary w-1/2 p-8">
           <div class="flex justify-center text-white md:text-sm mb-40 mx-20">
             <NuxtLink to="/"><p class="mr-4 xl:mr-14 font-bold">What to Expect?</p></NuxtLink>
-            <a class="mr-4 xl:mr-14" target="_blank" href="https://drive.google.com/file/d/1_RXTgIz-wkzt9WSim3_KfIJigEr6HOzB/view?usp=sharing">Download CV</a>
+            <a class="mr-4 xl:mr-14" target="_blank" href="https://drive.google.com/file/d/1ttzOTkdTb_fZD8KlDkhzck8EakPcUCGS/view?usp=sharing">Download CV</a>
             <!-- <NuxtLink to="/"><p class="mr-4 xl:mr-14">Download CV</p></NuxtLink> -->
             <NuxtLink to="/"><p class="mr-4 xl:mr-14">Books</p></NuxtLink>
             <NuxtLink to="/"><p class="mr-4 xl:mr-14">OSS</p></NuxtLink>
