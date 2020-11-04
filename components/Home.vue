@@ -21,7 +21,7 @@
         >
       </div>
       <div class="flex justify-center">
-        <img src="~/assets/images/zencoder__dark.png" alt="" />
+        <img src="https://res.cloudinary.com/zencoder/image/upload/v1604416121/zencoder__dark_i38quk.png" alt="zencoder" />
       </div>
       <!-- backendStacks -->
       <div
