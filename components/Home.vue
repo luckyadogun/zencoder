@@ -11,7 +11,7 @@
         <NuxtLink to="/"
           ><p class="mr-2 md:mr-12 font-extrabold">What to Expect?</p></NuxtLink
         >
-        <NuxtLink to="/"><p class="mr-2 md:mr-12">Download CV</p></NuxtLink>
+        <a class="mr-2 md:mr-12" target="_blank" href="https://drive.google.com/file/d/1_RXTgIz-wkzt9WSim3_KfIJigEr6HOzB/view?usp=sharing">Download CV</a>
         <NuxtLink to="/"><p class="mr-2 md:mr-12">Books</p></NuxtLink>
         <NuxtLink to="/"><p class="mr-2 md:mr-12">OSS</p></NuxtLink>
         <NuxtLink to="/"
@@ -177,7 +177,8 @@
         <div class="bg-theme-secondary w-1/2 p-8">
           <div class="flex justify-center text-white md:text-sm mb-40 mx-20">
             <NuxtLink to="/"><p class="mr-4 xl:mr-14 font-bold">What to Expect?</p></NuxtLink>
-            <NuxtLink to="/"><p class="mr-4 xl:mr-14">Download CV</p></NuxtLink>
+            <a class="mr-4 xl:mr-14" target="_blank" href="https://drive.google.com/file/d/1_RXTgIz-wkzt9WSim3_KfIJigEr6HOzB/view?usp=sharing">Download CV</a>
+            <!-- <NuxtLink to="/"><p class="mr-4 xl:mr-14">Download CV</p></NuxtLink> -->
             <NuxtLink to="/"><p class="mr-4 xl:mr-14">Books</p></NuxtLink>
             <NuxtLink to="/"><p class="mr-4 xl:mr-14">OSS</p></NuxtLink>
             <NuxtLink to="/"><p class="mr-4 xl:mr-14">LifeOutsideTech</p></NuxtLink>
@@ -239,12 +240,23 @@
         </div>
       </div>  
 
-      <!-- <div class="bg-blue-200 w-full h-20 px-10 py-5">
-          <p class="font-bold text-sm">Notable Projects Supported</p>
-          <div class="">
-            <Projects />
+      <div class="w-full h-full px-10 py-5" style="font-family: 'Quicksand', sans-serif;">
+          <p class="font-bold text-sm mb-4">Notable Projects Supported</p>
+          <div class="flex xl:justify-between lg:justify-center">
+            <img src="~/assets/images/projects.png" alt="" />   
+            <div id="social" class="lg:hidden xl:flex items-center">
+                <a href="mailto: meetluckyadogun@gmail.com" target="_blank"
+                  ><img class="mr-12 w-6" src="~/assets/images/email.png" alt=""
+                /></a>
+                <a href="https://twitter.com/iam_zencoder" target="_blank"
+                  ><img class="mr-12 w-6" src="~/assets/images/twitter.png" alt=""
+                /></a>
+                <a href="https://www.linkedin.com/in/luckyadogun/" target="_blank"
+                  ><img class="mr-12 w-6" src="~/assets/images/linkedin.png" alt=""
+                /></a>
+            </div>        
           </div>
-      </div> -->
+      </div>
           
     </div>
   </div>
@@ -381,6 +393,7 @@ export default {
   left: 20%;
   right: 20%;
   bottom: 0%;
+  pointer-events: none
 }
 
 @media only screen and (max-width: 1200px) {
