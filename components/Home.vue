@@ -273,107 +273,107 @@ export default {
       backEndStacks: [
         {
           topic: 'Algorithm Design',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: 'https://github.com/luckyadogun/leetcode',
+          blog: 'https://dev.to/iam_zencoder/series/9573'
         },
         {
           topic: 'JavaScript',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'NodeJS',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'NextJS',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'Strapi',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'Python',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'Django',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'FastAPI',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'Docker',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'AmazonS3',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.google.com',
-          blog: 'http://www.blog.coom'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         }
       ],
       frontEndStacks: [
         {
           topic: 'UI/UX',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.example.com',
-          blog: 'http://www.example.com'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'HTML',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.example.com',
-          blog: 'http://www.example.com'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'CSS',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.example.com',
-          blog: 'http://www.example.com'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'VueJS',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.example.com',
-          blog: 'http://www.example.com'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'NuxtJS',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.example.com',
-          blog: 'http://www.example.com'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'Flutter',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.example.com',
-          blog: 'http://www.example.com'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         },
         {
           topic: 'Netlify',
-          projectLink: 'http://www.example.com',
-          repo: 'http://www.example.com',
-          blog: 'http://www.example.com'
+          projectLink: '#',
+          repo: '#',
+          blog: '#'
         }
       ]
     }
