@@ -9,9 +9,9 @@
       </div>
       <div class="flex justify-center my-10 mx-0 text-xs md:text-lg text-center">
         <NuxtLink to="/"
-          ><p class="mr-2 md:mr-12 font-extrabold">What to Expect?</p></NuxtLink
+          ><p class="mr-2 md:mr-12 font-extrabold">Why Hire Me?</p></NuxtLink
         >
-        <a class="mr-2 md:mr-12" target="_blank" href="https://drive.google.com/file/d/1iSrxZ0wALQALk3xox1HAwy3LgD6xyRYc/view?usp=sharing">Download CV</a>
+        <a class="mr-2 md:mr-12" target="_blank" :href="resumeUrl">Download CV</a>
         <NuxtLink to="/"><p class="mr-2 md:mr-12">Books</p></NuxtLink>
         <NuxtLink to="/"><p class="mr-2 md:mr-12">OSS</p></NuxtLink>
         <NuxtLink to="/"
@@ -21,7 +21,7 @@
         >
       </div>
       <div class="flex justify-center">
-        <img src="https://res.cloudinary.com/zencoder/image/upload/v1604416121/zencoder__dark_i38quk.png" alt="zencoder" />
+        <img :src="imageUrl" alt="zencoder" />
       </div>
       <!-- backendStacks -->
       <div
@@ -176,8 +176,8 @@
 
         <div class="bg-theme-secondary w-1/2 p-8">
           <div class="flex justify-center text-white md:text-sm mb-40 mx-20">
-            <NuxtLink to="/"><p class="mr-4 xl:mr-14 font-bold">What to Expect?</p></NuxtLink>
-            <a class="mr-4 xl:mr-14" target="_blank" href="https://drive.google.com/file/d/1iSrxZ0wALQALk3xox1HAwy3LgD6xyRYc/view?usp=sharing">Download CV</a>
+            <NuxtLink to="/"><p class="mr-4 xl:mr-14 font-bold">Why Hire Me?</p></NuxtLink>
+            <a class="mr-4 xl:mr-14" target="_blank" :href="resumeUrl">Download CV</a>
             <!-- <NuxtLink to="/"><p class="mr-4 xl:mr-14">Download CV</p></NuxtLink> -->
             <NuxtLink to="/"><p class="mr-4 xl:mr-14">Books</p></NuxtLink>
             <NuxtLink to="/"><p class="mr-4 xl:mr-14">OSS</p></NuxtLink>
@@ -235,9 +235,7 @@
           </div>
         </div>
 
-        <div class="image-cover">
-          
-        </div>
+        <div class="image-cover"></div>
       </div>  
 
       <div class="w-full h-full px-10 py-5" style="font-family: 'Quicksand', sans-serif;">
@@ -269,6 +267,8 @@ export default {
   data () {
     return {
       photoAsset,
+      imageUrl: 'https://res.cloudinary.com/zencoder/image/upload/v1604416121/zencoder__dark_i38quk.png',
+      resumeUrl: 'https://drive.google.com/file/d/1JW0o8q6KimZocJvAWVoqLq5pVxlPysjl/view?usp=sharing',
       HtmlSubTitles: ['< backend_stacks />', '< frontend_stacks />'],
       backEndStacks: [
         {
