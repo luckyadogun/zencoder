@@ -4,7 +4,8 @@ module.exports = {
         colors: {
           'theme-primary': '#0000FF',
           'theme-secondary': '#FF0000',
-          'theme-tertiary': '#EDF2F8'
+          'theme-tertiary': '#EDF2F8',
+          'theme-links': '#A1A1D0'
         }
       }
     },
