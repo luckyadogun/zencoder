@@ -8,7 +8,7 @@
         </NuxtLink>
       </div>
       <div class="flex justify-center my-10 mx-0 text-xs md:text-lg text-center">
-        <NuxtLink to="/"
+        <NuxtLink to="/whyhireme"
           ><p class="mr-2 md:mr-12 font-extrabold">Why Hire Me?</p></NuxtLink
         >
         <a class="mr-2 md:mr-12" target="_blank" :href="resumeUrl">Download CV</a>
@@ -176,7 +176,7 @@
 
         <div class="bg-theme-secondary w-1/2 p-8">
           <div class="flex justify-center text-white md:text-sm mb-40 mx-20">
-            <NuxtLink to="/"><p class="mr-4 xl:mr-14 font-bold">Why Hire Me?</p></NuxtLink>
+            <NuxtLink to="/whyhireme"><p class="mr-4 xl:mr-14 font-bold">Why Hire Me?</p></NuxtLink>
             <a class="mr-4 xl:mr-14" target="_blank" :href="resumeUrl">Download CV</a>
             <!-- <NuxtLink to="/"><p class="mr-4 xl:mr-14">Download CV</p></NuxtLink> -->
             <NuxtLink to="/"><p class="mr-4 xl:mr-14">Books</p></NuxtLink>
@@ -273,105 +273,112 @@ export default {
       backEndStacks: [
         {
           topic: 'Algorithm Design',
-          projectLink: '#',
+          projectLink: 'https://github.com/luckyadogun/leetcode',
           repo: 'https://github.com/luckyadogun/leetcode',
           blog: 'https://dev.to/iam_zencoder/series/9573'
         },
         {
           topic: 'JavaScript',
-          projectLink: '#',
+          projectLink: 'https://brandshack.herokuapp.com/',
           repo: '#',
           blog: '#'
         },
-        {
-          topic: 'NodeJS',
-          projectLink: '#',
-          repo: '#',
-          blog: '#'
-        },
-        {
-          topic: 'NextJS',
-          projectLink: '#',
-          repo: '#',
-          blog: '#'
-        },
-        {
-          topic: 'Strapi',
-          projectLink: '#',
-          repo: '#',
-          blog: '#'
-        },
+        // {
+        //   topic: 'NodeJS',
+        //   projectLink: '#',
+        //   repo: '#',
+        //   blog: '#'
+        // },
+        // {
+        //   topic: 'NextJS',
+        //   projectLink: '#',
+        //   repo: '#',
+        //   blog: '#'
+        // },
+        
+        // {
+        //   topic: 'Strapi',
+        //   projectLink: '#',
+        //   repo: '#',
+        //   blog: '#'
+        // },
         {
           topic: 'Python',
-          projectLink: '#',
-          repo: '#',
+          projectLink: 'https://www.darader.com/',
+          repo: 'https://github.com/luckyadogun/timberinvoice',
           blog: '#'
         },
         {
-          topic: 'Django',
-          projectLink: '#',
-          repo: '#',
+          topic: 'Django/Django RESTAPI',
+          projectLink: 'https://evening-lake-45761.herokuapp.com/',
+          repo: 'https://github.com/luckyadogun/timberinvoice',
           blog: '#'
         },
-        {
-          topic: 'FastAPI',
-          projectLink: '#',
-          repo: '#',
-          blog: '#'
-        },
+        // {
+        //   topic: 'FastAPI',
+        //   projectLink: '#',
+        //   repo: '#',
+        //   blog: '#'
+        // },
         {
           topic: 'Docker',
-          projectLink: '#',
-          repo: '#',
+          projectLink: 'https://www.darader.com/',
+          repo: 'https://github.com/luckyadogun/timberinvoice/blob/master/Dockerfile',
           blog: '#'
         },
         {
           topic: 'AmazonS3',
-          projectLink: '#',
-          repo: '#',
-          blog: '#'
+          projectLink: 'https://darader-assets.s3.us-east-2.amazonaws.com/media/property/DBv0kVxICST2/images/46D909BC-2485-4231-BCC4-62137CAC0782.jpeg',
+          repo: 'https://github.com/luckyadogun/AmazonS3-Samples/blob/main/amazons3.py',
+          blog: ''
+        },
+        {
+          topic: 'Heroku',
+          projectLink: 'https://agile-inlet-28736.herokuapp.com/',
+          repo: 'https://github.com/luckyadogun/AmazonS3-Samples/blob/main/amazons3.py',
+          blog: ''
         }
       ],
       frontEndStacks: [
         {
           topic: 'UI/UX',
-          projectLink: '#',
-          repo: '#',
+          projectLink: 'https://dribbble.com/YoYoBerry',
+          repo: 'https://dribbble.com/YoYoBerry',
           blog: '#'
         },
         {
-          topic: 'HTML',
-          projectLink: '#',
-          repo: '#',
+          topic: 'HTML/CSS3',
+          projectLink: 'https://codepen.io/luckyadogun',
+          repo: 'https://codepen.io/luckyadogun',
           blog: '#'
         },
         {
-          topic: 'CSS',
-          projectLink: '#',
-          repo: '#',
+          topic: 'TailwindCSS',
+          projectLink: 'https://compassionate-varahamihira-dbe085.netlify.app/',
+          repo: 'https://github.com/luckyadogun/zencoder',
           blog: '#'
         },
         {
           topic: 'VueJS',
-          projectLink: '#',
-          repo: '#',
+          projectLink: 'https://compassionate-varahamihira-dbe085.netlify.app/',
+          repo: 'https://github.com/luckyadogun/zencoder',
           blog: '#'
         },
         {
           topic: 'NuxtJS',
-          projectLink: '#',
-          repo: '#',
+          projectLink: 'https://epic-hamilton-21cf1f.netlify.app/',
+          repo: 'https://github.com/luckyadogun/zencoder',
           blog: '#'
         },
-        {
-          topic: 'Flutter',
-          projectLink: '#',
-          repo: '#',
-          blog: '#'
-        },
+        // {
+        //   topic: 'Flutter',
+        //   projectLink: '#',
+        //   repo: '#',
+        //   blog: '#'
+        // },
         {
           topic: 'Netlify',
-          projectLink: '#',
+          projectLink: 'https://epic-hamilton-21cf1f.netlify.app/',
           repo: '#',
           blog: '#'
         }
