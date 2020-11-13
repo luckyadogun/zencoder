@@ -271,12 +271,12 @@ export default {
       resumeUrl: 'https://drive.google.com/file/d/1JW0o8q6KimZocJvAWVoqLq5pVxlPysjl/view?usp=sharing',
       HtmlSubTitles: ['< backend_stacks />', '< frontend_stacks />'],
       backEndStacks: [
-        {
-          topic: 'Algorithm Design',
-          projectLink: 'https://github.com/luckyadogun/leetcode',
-          repo: 'https://github.com/luckyadogun/leetcode',
-          blog: 'https://dev.to/iam_zencoder/series/9573'
-        },
+        // {
+        //   topic: 'Algorithm Design',
+        //   projectLink: 'https://github.com/luckyadogun/leetcode',
+        //   repo: 'https://github.com/luckyadogun/leetcode',
+        //   blog: 'https://dev.to/iam_zencoder/series/9573'
+        // },
         {
           topic: 'JavaScript',
           projectLink: 'https://brandshack.herokuapp.com/',
@@ -360,13 +360,13 @@ export default {
         },
         {
           topic: 'VueJS',
-          projectLink: 'https://compassionate-varahamihira-dbe085.netlify.app/',
+          projectLink: 'https://epic-hamilton-21cf1f.netlify.app/',
           repo: 'https://github.com/luckyadogun/zencoder',
           blog: '#'
         },
         {
           topic: 'NuxtJS',
-          projectLink: 'https://epic-hamilton-21cf1f.netlify.app/',
+          projectLink: 'https://compassionate-varahamihira-dbe085.netlify.app/',
           repo: 'https://github.com/luckyadogun/zencoder',
           blog: '#'
         },
