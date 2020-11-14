@@ -18,7 +18,7 @@
 
         <h1 class="my-10">
           Developed the 
-          <a target="_blank" href="https://sterling.ng/" class="text-theme-links">www.sterling.ng</a> payment processing
+          <a target="_blank" href="https://sterling.ng/" class="text-theme-links">Sterling Bank</a> payment processing
           platform at <a target="_blank" href="https://afexnigeria.com/" class="text-theme-links">www.afexnigeria.com</a> 
           powering African's largest enterprise commodity exchange service.
         </h1>
