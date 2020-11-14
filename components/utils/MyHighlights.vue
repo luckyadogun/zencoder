@@ -6,7 +6,7 @@
       >
         <h1 class="my-10">
           Developed and deployed Real-Estate startup app 
-          <a target="_blank" href="https://www.darader.com/" class="text-theme-links">www.darader.com</a> API
+          <a target="_blank" href="https://www.darader.com/" class="text-theme-links">www.darader.com</a>
           in half the estimated time to help it acquire funding.
         </h1>
 
