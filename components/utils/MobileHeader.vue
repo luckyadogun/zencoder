@@ -25,7 +25,7 @@
 export default {
   data() {
     return {
-      resumeUrl: 'https://docs.google.com/document/d/1sqrlJJ_UueOahr4_-DijO0M1QowVDtyLo3qoDddoON8/edit?usp=sharing',
+      resumeUrl: 'https://drive.google.com/file/d/1S9UqtLhseg7zN8SA-HHEg2SnoKKw9zR-/view?usp=sharing',
     }
   }
 }
