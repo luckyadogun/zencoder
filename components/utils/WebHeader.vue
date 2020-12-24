@@ -17,7 +17,7 @@
 export default {
   data() {
     return {
-      resumeUrl: 'https://drive.google.com/file/d/1WYkkoQ8StjIi3jCPiQvsDuPYoH7uDXaj/view?usp=sharing',
+      resumeUrl: 'https://drive.google.com/file/d/1Dyajy0rYbqQ7fuZy_8014arKoxaE7XID/view?usp=sharing',
     }
   }
 }
