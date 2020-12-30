@@ -10,6 +10,8 @@ A portfolio website for developers
 
 ### version 2: (coming soon)
 ![version 2](https://github.com/luckyadogun/zencoder/blob/main/Site_new_home_dm-1.png "Portfolio Home Screen")
+
+DARK MODE
 ![version 2 Dark](https://github.com/luckyadogun/zencoder/blob/main/Site_new_home_dm.png "Portfolio Home Screen")
 * ReactJS
 * Figma
