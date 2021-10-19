@@ -9,7 +9,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter:wght@600&family=PT+Mono&family=Quicksand:wght@600;700&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Spartan:wght@500;600&display=swap' },
+      { rel: 'preconnect', href : 'https://fonts.googleapis.com'},
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com" crossorigin'},
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap'}
     ]
   },
 
@@ -19,8 +22,8 @@ export default {
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [
-  ],
+  plugins: [ { src: '~plugins//slide-menu', ssr: false }],
+
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,

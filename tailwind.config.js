@@ -1,11 +1,11 @@
 module.exports = {
+    darkMode: 'class',
     theme: {
       extend: {
         colors: {
-          'theme-primary': '#0000FF',
-          'theme-secondary': '#FF0000',
-          'theme-tertiary': '#EDF2F8',
-          'theme-links': '#A1A1D0'
+          'theme-dark': '#0D0E10',
+          'theme-secondary': '#8B8B8B',
+          'theme-cta': '#E5E5E5',
         }
       }
     },
