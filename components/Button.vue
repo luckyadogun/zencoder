@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="bg-theme-cta flex items-center hover:bg-orange-500 focus:outline-none w-full py-4 px-10 font-bold rounded-xl text-theme-dark">{{ cta }} <mail-icon size="1x" class="ml-2"></mail-icon></button>
+        <button class="flex items-center bg-orange-500 focus:outline-none w-full py-4 px-10 font-bold rounded-xl text-theme-dark tracking-tighter">{{ cta }}</button>
     </div>
 </template>
 
