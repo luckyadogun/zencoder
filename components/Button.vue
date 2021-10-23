@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="flex items-center bg-orange-500 focus:outline-none w-full py-4 px-10 font-bold rounded-xl text-theme-dark tracking-tighter">{{ cta }}</button>
+        <button class="flex items-center bg-theme-tertiary focus:outline-none w-full py-4 px-10 font-bold rounded-xl text-theme-dark tracking-tighter">{{ cta }}</button>
     </div>
 </template>
 

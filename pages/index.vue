@@ -16,45 +16,36 @@
         
         
         <!-- Cards -->
-        <div id="cards" class="my-10">
+        <div id="cards" class="my-5">
           <h1 class="text-center font-bold tracking-tight leading-tight text-lg">
               Take any of the steps below.
               Move from wanting to doing.
           </h1>
-
+          
           <div>
-            <Card :cardData="cardData1" />
-            <Card :cardData="cardData2" />
-            <Card :cardData="cardData3" />
-            <Card :cardData="cardData4" />
+            <sequential-entrance fromTop delay="2000"><Card :cardData="cardData1" /></sequential-entrance>
+            <sequential-entrance fromRight delay="4000"><Card :cardData="cardData2" /></sequential-entrance>
+            <sequential-entrance fromBottom delay="8000"><Card :cardData="cardData3" /></sequential-entrance>
+            <sequential-entrance fromLeft delay="1600"><Card :cardData="cardData4" /></sequential-entrance>
           </div>
         </div>
 
-        <div class="text-center mb-10">
-          <p class="italic font-semibold">Want to hire me instead?</p>
-          <Button class="my-5" cta='Download my resume' />
+        <div class="text-center font-bold tracking-tight leading-tight text-sm mb-8">
+          <p class="mb-5">
+            I didn’t take any of the steps above, 
+            I want a CTO to guide our startup 
+            to success technically
+          </p>
+          <a href="" class="text-theme-tertiary underline">PARTNER WITH A DIGITAL CTO. IT’S FREE</a>
         </div>
 
-        <!-- <p class="text-xs text-theme-secondary my-3 underline">Click here to download my resume</p>
-        <p class="text-xs text-orange-500 mb-5 font-semibold">OR</p>
-        <SocialMedia /> -->
+        <hr class="w-full mb-5 border-theme-tertiary border-dashed">
+
+        <div class="text-center mb-10">
+          <p class="italic font-semibold text-xs">Want to hire me instead?</p>
+          <Button class="my-5" cta='Download my resume' />
+        </div>
     </div>
-
-    <!-- <div class="bg-white p-5 w-full">
-      <p class="text-black">
-
-        DISCLAIMER:
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-    </div> -->
     
   </div>
 </template>
