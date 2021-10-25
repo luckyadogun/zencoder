@@ -3,47 +3,49 @@
     <div class="flex flex-col items-center justify-center justify-items-center m-auto">
         <img class="inline object-cover w-24 h-24 mr-2 rounded-full bg-white" :src="mainPhoto"/>
         <h1 class="my-5 text-lg font-bold">Hi, I'm Lucky 👋</h1>
-        <h1 class="my-5 text-3xl md:text-5xl lg:text-6xl lg:px-56 tracking-tighter leading-tight md:leading-none text-center font-bold">
-          Everything You Need to Build & Launch Low-Cost 
-          Scalable SaaS MVPs 10X Faster
+        <h1 class="my-5 text-4xl md:text-5xl lg:text-6xl lg:px-24 tracking-tighter leading-tight md:leading-none text-center font-bold">
+          Free Tools, Tips & Techniques for Founders to Build and Launch <span class="italic">Low-Cost</span> 
+          <span class="text-theme-tertiary underline">Scalable</span> SaaS MVPs 10X Faster
         </h1>
-        <p class="my-5 text-xs md:text-sm lg:text-lg tracking-tight md:px-10 lg:px-56 text-center font-semibold text-theme-secondary">
-          I have done it many times, for many clients, even for the
-          <span class="font-bold text-white">Federal Government of Nigeria <br class="hidden md:block">for the Ministry of Budget and Urban Planning. </span>
-          If they can trust me, maybe you can. So feel free to reach out.
+        <p class="my-5 mb-10 text-sm xl:text-lg md:text-md tracking-tight md:px-12 lg:px-30 text-center font-semibold text-theme-secondary">
+          I have built many MVPs, for many clients, even for the
+          <span class="font-bold text-white">Government of Nigeria <br class="hidden lg:block">under the Ministry of Budget and Urban Planning. </span>
+          If they can trust me, maybe, so can you.
         </p>
-        <Button class="my-5" cta='Ask Me Anything' />
-        
+        <Button class="mb-16" cta='Get Free Access' />
         
         <!-- Cards -->
         <div id="cards" class="my-5">
-          <h1 class="text-center font-bold tracking-tight leading-tight text-lg">
-              Take any of the steps below.
-              Move from wanting to doing.
+          <h1 class="text-center md:text-xl font-medium tracking-tight leading-tight text-md mb-5">
+              What's the ONE thing you need right now<br class="hidden md:block">
+              to move your idea closer to reality?
           </h1>
+
+          <div class="flex flex-col md:flex-row lg:px-32 w-full">
+              <div class="block md:mr-5">
+                <sequential-entrance fromLeft delay="2000"><Card :cardData="cardData1" /></sequential-entrance>
+                <sequential-entrance fromTop delay="2000"><Card :cardData="cardData2" /></sequential-entrance>            
+              </div>
           
-          <div>
-            <sequential-entrance fromTop delay="2000"><Card :cardData="cardData1" /></sequential-entrance>
-            <sequential-entrance fromRight delay="4000"><Card :cardData="cardData2" /></sequential-entrance>
-            <sequential-entrance fromBottom delay="8000"><Card :cardData="cardData3" /></sequential-entrance>
-            <sequential-entrance fromLeft delay="1600"><Card :cardData="cardData4" /></sequential-entrance>
-          </div>
+              <div class="block md:mr-5">
+                <sequential-entrance fromRight delay="2000"><Card :cardData="cardData3" /></sequential-entrance>
+                <sequential-entrance fromBottom delay="4000"><Card :cardData="cardData4" /></sequential-entrance>            
+              </div>          
+          </div>      
         </div>
 
-        <div class="text-center font-bold tracking-tight leading-tight text-sm mb-8">
-          <p class="mb-5">
-            I didn’t take any of the steps above, 
-            I want a CTO to guide our startup 
-            to success technically
+        <div class="text-center text-sm mb-8">
+          <p class="text-md">
+            *Includes, FREE <span class="text-theme-tertiary">landing-pages</span> and closed-source Python & JavaScript libraries customizable to fit your startup needs*
           </p>
-          <a href="" class="text-theme-tertiary underline">PARTNER WITH A DIGITAL CTO. IT’S FREE</a>
         </div>
+        <Button class="my-2" cta='Get Free Access' />
 
-        <hr class="w-full mb-5 border-theme-tertiary border-dashed">
+        <hr class="my-10 w-full border-theme-tertiary border-dashed">
 
         <div class="text-center mb-10">
-          <p class="italic font-semibold text-xs">Want to hire me instead?</p>
-          <Button class="my-5" cta='Download my resume' />
+          <p class="italic font-semibold text-md mb-8">Want to hire me instead?</p>
+          <a href="" class="font-bold border-2 border-dashed p-3 border-theme-tertiary rounded-lg text-white">LET'S DISCUSS</a>
         </div>
     </div>
     
@@ -65,9 +67,9 @@ export default {
         title: 'Home',
         mainPhoto: mainPhoto,
         cardData1: {
-          price: "$1500",
+          price: "Worth $1500+",
           photo: cardImage1,
-          title: "How long will my SaaS project take and how much would it cost?",
+          title: "I NEED a Non-Biased cost and time estimate for SaaS MVP",
           body: `
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -76,12 +78,11 @@ export default {
           `
         },
         cardData2: {
-          price: "FREE",
+          price: "Worth $800+",
           photo: cardImage2,
           title: `
-                  What’s the best tech-stack 
-                  to go from idea to MVP 10X Faster 
-                  with little or no trade-offs?
+                  I NEED to know the best tech-stack 
+                  to build my SaaS MVP 10X Faster?
                 `,
           body: `
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -91,10 +92,10 @@ export default {
           `
         },
         cardData3: {
-          price: "$2500",
+          price: "Worth $2500+",
           photo: cardImage4,
           title: `
-            What Product Roadmap should I take with less opportunity cost?
+            I NEED a SaaS Product Roadmap with less opportunity cost?
           `,
           body: `
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -104,12 +105,10 @@ export default {
           `
         },
         cardData4: {
-          price: "$500",
+          price: "Worth $500+",
           photo: cardImage3,
           title: `
-            I have several prospective 
-            developers with equally attractive 
-            CV’s whom should I hire?
+            I NEED a decision-matrix to hire proficient and cost-effective devs
           `,
           body: `
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
