@@ -1,6 +1,6 @@
 <template>
     <div class="text-xs">
-        <p class="text-theme-secondary text-justify bg-white p-8 mb-10">
+        <p class="text-theme-secondary text-justify bg-white p-8 md:px-12 lg:px-20 mb-10">
             DISCLAIMER: <br>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 

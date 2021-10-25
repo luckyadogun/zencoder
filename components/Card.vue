@@ -1,20 +1,20 @@
 <template>
     
-    <a href="" class="text-center p-5 bg-white my-6 rounded-3xl text-black flex flex-col justify-center">
-        <div class="flex justify-end">
-            <p class="bg-theme-dark mb-5 py-1 px-2 text-xs w-20 text-theme-tertiary rounded-3xl font-bold">{{cardData.price}}</p>
-        </div>
-        <div class="flex flex-col items-center">
-            <img :src="cardData.photo" class="w-2/3 mb-3" alt="">
-            <p class="font-extrabold tracking-tighter leading-tight text-xl">
-                {{ cardData.title }}
-            </p>
-            <p class="text-xs my-5">
-                {{ cardData.body }}
-            </p>
-            <p class="underline text-sm font-bold text-theme-tertiary">Learn More</p>
-        </div>
-    </a>
+        <a href="" class="text-center p-5 bg-white my-6 md:my-3 rounded-3xl text-black flex flex-col justify-center">
+            <div class="flex justify-end">
+                <p class="bg-theme-dark mb-5 py-1 px-2 text-xs w-20 md:w-32 text-theme-tertiary rounded-3xl md:rounded-2xl font-bold">{{cardData.price}}</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img :src="cardData.photo" class="w-2/5 md:w-2/5 mb-3" alt="">
+                <p class="font-extrabold tracking-tighter leading-tight text-xl md:text-sm">
+                    {{ cardData.title }}
+                </p>
+                <p class="text-xs my-5 tracking-tight leading-tight">
+                    {{ cardData.body }}
+                </p>
+                <p class="underline text-sm font-bold text-theme-tertiary">Learn More</p>
+            </div>
+        </a>
 </template>
 
 
