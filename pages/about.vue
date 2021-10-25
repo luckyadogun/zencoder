@@ -1,5 +1,5 @@
 <template>
-    <div class="font-thin text-white">
+    <div class="font-thin text-white h-screen">
         <p class="text-xs my-3">Hey, it's me. However,</p>
         <h1 class="tracking-tight leading-tight">
             Let's make this <strong>"About You"</strong> and how my experience could 
