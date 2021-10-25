@@ -36,7 +36,7 @@
 
         <div class="text-center text-sm mb-8">
           <p class="text-md tracking-tight">
-            *Includes, FREE <span class="font-bold text-theme-tertiary">idea validation-pages</span> and closed-source Python & JavaScript libraries customizable to fit your startup needs*
+            *AND LOT'S MORE, including, FREE <span class="font-bold text-theme-tertiary">idea validation-pages</span> and closed-source Python & JavaScript libraries customizable to fit your startup needs*
           </p>
         </div>
         <Button class="my-2" cta='Get Free Access' />
