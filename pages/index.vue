@@ -3,7 +3,7 @@
     <div class="flex flex-col items-center justify-center justify-items-center m-auto">
         <img class="inline object-cover w-24 h-24 mr-2 rounded-full bg-white" :src="mainPhoto"/>
         <h1 class="my-5 text-lg font-bold">Hi, I'm Lucky 👋</h1>
-        <h1 class="my-5 text-4xl md:text-5xl lg:text-6xl lg:px-24 tracking-tighter leading-tight md:leading-none text-center font-bold">
+        <h1 class="my-5 text-4xl md:text-5xl lg:text-6xl lg:px-48 tracking-tighter leading-tight md:leading-none text-center font-bold">
           Free Tools, Tips & Techniques for Founders to Build and Launch <span class="italic">Low-Cost</span> 
           <span class="text-theme-tertiary underline">Scalable</span> SaaS MVPs 10X Faster
         </h1>
@@ -35,8 +35,8 @@
         </div>
 
         <div class="text-center text-sm mb-8">
-          <p class="text-md">
-            *Includes, FREE <span class="text-theme-tertiary">landing-pages</span> and closed-source Python & JavaScript libraries customizable to fit your startup needs*
+          <p class="text-md tracking-tight">
+            *AND LOT'S MORE, including, FREE <span class="font-bold text-theme-tertiary">idea validation-pages</span> and closed-source Python & JavaScript libraries customizable to fit your startup needs*
           </p>
         </div>
         <Button class="my-2" cta='Get Free Access' />
