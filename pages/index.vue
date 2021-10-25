@@ -12,12 +12,11 @@
           <span class="font-bold text-white">Government of Nigeria <br class="hidden lg:block">under the Ministry of Budget and Urban Planning. </span>
           If they can trust me, maybe, so can you.
         </p>
-        <Button class="mb-20" cta='Get Free Access' />
-        
+        <Button class="mb-16" cta='Get Free Access' />
         
         <!-- Cards -->
         <div id="cards" class="my-5">
-          <h1 class="text-center md:text-xl tracking-tight leading-tight font-normal text-md mb-5">
+          <h1 class="text-center md:text-xl font-medium tracking-tight leading-tight text-md mb-5">
               What's the ONE thing you need right now<br class="hidden md:block">
               to move your idea closer to reality?
           </h1>
