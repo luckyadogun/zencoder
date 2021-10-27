@@ -3,7 +3,7 @@
     <div class="flex flex-col items-center justify-center justify-items-center m-auto">
         <img class="inline object-cover w-24 h-24 mr-2 rounded-full bg-white" :src="mainPhoto"/>
         <h1 class="my-5 text-lg font-bold">Hi, I'm Lucky 👋</h1>
-        <h1 class="my-5 text-4xl md:text-5xl lg:text-6xl lg:px-48 tracking-tighter leading-tight md:leading-none text-center font-bold">
+        <h1 class="my-5 text-4xl md:text-5xl lg:text-6xl lg:px-32 xl:px-56 tracking-tighter leading-tight md:leading-none text-center font-bold">
           Free Tools, Tips & Techniques for Founders to Build and Launch <span class="italic">Low-Cost</span> 
           <span class="text-theme-tertiary underline">Scalable</span> SaaS MVPs 10X Faster
         </h1>
