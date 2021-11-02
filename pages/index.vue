@@ -35,8 +35,8 @@
         </div>
 
         <div class="text-center text-sm mb-8">
-          <p class="text-md tracking-tight">
-            *AND LOT'S MORE, including, FREE <span class="font-bold text-theme-tertiary">idea validation-pages</span> and closed-source Python & JavaScript libraries customizable to fit your startup needs*
+          <p class="text-md tracking-tight text-lg font-bold">
+            *AND LOT'S MORE, including, FREE <span class="font-bold text-theme-tertiary">idea validation-pages</span> and<br> closed-source Python & JavaScript libraries customizable to fit your startup needs*
           </p>
         </div>
         <Button class="my-2" cta='Get Free Access' />
@@ -71,10 +71,8 @@ export default {
           photo: cardImage1,
           title: "I NEED a Non-Biased cost and time estimate for SaaS MVP",
           body: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna 
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Two-thirds of projects significantly overrun their cost and exceed their scheduled release date.
+            Let me work with you to avoid these common pitfalls and reach the market faster than the competition.
           `
         },
         cardData2: {
@@ -85,10 +83,9 @@ export default {
                   to build my SaaS MVP 10X Faster?
                 `,
           body: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna 
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            The current technological boom has created many opportunities and a huge paradox
+            of choice. Today's technologies could likely become obsolete in a few years,
+            months or even weeks from now. Let's work together in picking a tech-stack that works for you.
           `
         },
         cardData3: {
@@ -98,10 +95,9 @@ export default {
             I NEED a SaaS Product Roadmap with less opportunity cost?
           `,
           body: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna 
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            What direction is your product taking? How do you plan to handle 
+            uncertainty? Learn simple steps to avoid the dilemma of build-trap 
+            and navigate from a project to a product.
           `
         },
         cardData4: {
@@ -111,10 +107,9 @@ export default {
             I NEED a decision-matrix to hire proficient and cost-effective devs
           `,
           body: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna 
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            The most important factor in building a successful product is the human capital at your disposal.
+            Leverage my experience working with engineers and designers within the sector to hire the best 
+            talent that fit your project without going through hundreds of resumes.
           `
         },
       }
