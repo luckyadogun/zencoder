@@ -67,7 +67,7 @@
                 </p>
                 <p class="accordion__body p-4">
                     You may also find that my stack includes Python. If you are coming from a different eco-system, you will find my writings here. I try to make them easily digestable. 
-                    I am constantly learning and trying new things out so keep an eye on my <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://blog.zencoder.xyz">blog.</a>
+                    I am constantly learning and trying new things out so keep an eye on my <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://blog.luckyadogun.com">blog.</a>
                 </p>
                 <p class="accordion__body p-4">
                     If you find any of my <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://github.com/luckyadogun">open source projects</a> interesting and want to collaborate, feel free to reach me via <a class="font-medium underline text-theme-tertiary" href="mailto:meetluckyadogun@gmail.com">email</a> and we can hopefully work together.
