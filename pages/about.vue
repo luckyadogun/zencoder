@@ -1,5 +1,5 @@
 <template>
-    <div class="flex h-full">
+    <div class="flex h-screen">
         <div class="mr-4 font-thin text-white h-full text-xs md:text-sm py-5 md:py-10">
             <p class="my-3">Hey, it's me. However,</p>
             <h1 class="my-5 tracking-tight leading-tight text-lg md:text-xl">

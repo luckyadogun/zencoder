@@ -45,7 +45,7 @@
 
         <div class="text-center mb-10">
           <p class="italic font-semibold text-md mb-8">Want to hire me instead?</p>
-          <a href="" class="font-bold border-2 border-dashed p-3 border-theme-tertiary rounded-lg text-white">LET'S DISCUSS</a>
+          <a href="mailto:meetluckyadogun@gmail.com" class="font-bold border-2 border-dashed p-3 border-theme-tertiary rounded-lg text-white">LET'S DISCUSS</a>
         </div>
     </div>
     
