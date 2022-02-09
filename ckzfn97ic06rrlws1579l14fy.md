@@ -1,4 +1,4 @@
-## Getting Started With Smart Contracts?
+## Getting Started With Smart Contracts
 
 At the core of Web3 decentralized apps (Dapps) are wallets.
 
